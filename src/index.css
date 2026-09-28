@@ -1,0 +1,14 @@
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif;
+  
+  /* Aquí está la magia: un degradado blanco semi-transparente (85%) encima de la foto del almacén/montacargas */
+  background-image: linear-gradient(rgba(240, 242, 245, 0.85), rgba(240, 242, 245, 0.85)), url('https://images.unsplash.com/photo-1586528116311-ad8dd3c8310d?q=80&w=1920');
+  
+  /* Hacemos que la imagen cubra toda la pantalla y no se repita */
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed; /* Esto hace que el fondo se quede quieto cuando haces scroll hacia abajo */
+  
+  color: #333;
+}
